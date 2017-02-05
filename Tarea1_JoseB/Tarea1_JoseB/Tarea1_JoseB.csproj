@@ -106,7 +106,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AcercaDe.html" />
+    <Content Include="Computacion.html" />
+    <Content Include="Contacto.html" />
     <Content Include="HtmlPage1.html" />
+    <Content Include="Objetivos.html" />
+    <Content Include="Pasatiempos.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
     <Content Include="Web.config" />
