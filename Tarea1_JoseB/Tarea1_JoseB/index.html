@@ -1,6 +1,155 @@
-﻿<!DOCTYPE html>
+﻿<!--<!DOCTYPE html>
 <html>
+<head>
+    <title>Tarea Programada 1</title>
+	<meta charset="utf-8" />
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
 <body>
-    <h1>Index</h1>
+<div id="header">
+    <ul class="nav">
+        <li><a href="">Inicio</a>
+            <ul>
+                <li> <a href="">Objetivos</a></li>
+                <li> <a href="">Pasatiempos</a></li>
+                <li> <a href="">Computacion</a>
+                    <ul>
+                        <li> <a href="">Por que?</a></li>
+                        <li> <a href="">Cursos</a></li>
+                        <li> <a href="">Profesores y Compañeros</a></li>
+                        <li> <a href="">Descargas</a></li>
+                    </ul>
+                </li>
+                <li> <a href="">Contacto</a></li>
+                <li> <a href="">Acerca De</a></li>
+
+            </ul>
+        </li>
+        </ul>
+    </div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarea 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="StyleSheet2.css" rel="stylesheet" />
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Tarea 1</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="HtmlPage1.html">Inicio</a></li>
+                    <li><a href="Objetivos.html">Objetivos</a></li>
+                    <li><a href="Pasatiempos.html">Pasatiempos</a></li>
+                    <li><a href="Computacion.html">Computacion</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="AcercaDe.html">Acerca De</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Tarea Programada 1 - Jose Bermudez</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <h3>Lo Importante</h3><br>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Tierra Santa en Costa Rica</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/21777_613454375337329_1362537936_n.jpg?oh=c73fb9ba4b7d46f53a164882c54d8b73&oe=5907AAD3" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>São Paulo - Brazil</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/10632836_972721012743995_4013185371929594574_n.jpg?oh=34388d3032b3dbbbd5dde148fd1676a0&oe=59426D60" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Metallica en Costa Rica</p>
+                <img src="https://up-1.cdn-fullscreendirect.com/production/photos/7549/large/20161106_072551_7549_959751.jpeg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Tigre</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t34.0-12/803496_632406206775479_1301383864_n.jpg?oh=62e6312e42d38666125002a89a9a326d&oe=589A5345" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div><br>
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Amigos de toda la vida</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/539654_535698853141054_463347671_n.jpg?oh=d1543281b2a12352265898d063942aff&oe=58FEC33A" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Warcry en Costa Rica</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-0/p206x206/1508597_623873047672129_1990015277_n.jpg?oh=585afba1cdd33a62090100653c0cddaa&oe=590BB7CE" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Amigos del Trabajo</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/11703041_1078356422191822_8540366914898674909_n.jpg?oh=996e0d6ecdb120ce39a8eb5f9ac9c22f&oe=5909112C" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Mi familia</p>
+                <img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/10929555_1119197661429662_2972172939627198482_n.jpg?oh=cd7a4a43e0090cab30980cbbc05c67f5&oe=5946D00A" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div><br><br>
+
+    <footer class="container-fluid text-center">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Tarea 1</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="HtmlPage1.html">Inicio</a></li>
+                        <li><a href="Objetivos.html">Objetivos</a></li>
+                        <li><a href="Pasatiempos.html">Pasatiempos</a></li>
+                        <li><a href="Computacion.html">Computacion</a></li>
+                        <li><a href="Contacto.html">Contacto</a></li>
+                        <li><a href="AcercaDe.html">Acerca De</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
 </body>
 </html>
